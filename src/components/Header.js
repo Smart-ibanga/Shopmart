@@ -1,4 +1,5 @@
 import React from 'react'
+import {BsSearch} from 'react-icons'
 
 const Header = () => {
   return (
@@ -15,12 +16,12 @@ const Header = () => {
               <input 
               type="text" 
               className='front-control'
-              placeholder='search products here'
+              placeholder='Search products here'
               aria-label='Search Product Here...'
               aria-describedby='basic-addons2'
               />
-              <span className='input-group text' id='basic-addons2'>
-                @example.com
+              <span className='input-group text p-3' id='basic-addons2'>
+                <BsSearch className="fe-6"/>
               </span>
             </div>
           </div>
